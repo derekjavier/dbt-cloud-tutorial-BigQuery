@@ -14,7 +14,7 @@ models:
      - name: status
        tests:
         - accepted_values:
-            values: ['placed', 'shipped', 'return_pending', 'returned']
+            values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
      - name: customer_id
        tests:
         - not_null
